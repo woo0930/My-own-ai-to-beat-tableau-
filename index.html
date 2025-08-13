@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI Dashboard Builder</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>AI Dashboard Builder</h1>
+  <div id="drop-zone">Drag & Drop CSV file here or click to upload</div>
+  <input type="file" id="file-input" accept=".csv" style="display:none" />
+
+  <div id="charts-container"></div>
+
+  <script src="libs/papaparse.min.js"></script>
+  <script src="libs/chart.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
